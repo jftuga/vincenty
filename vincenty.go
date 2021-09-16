@@ -8,8 +8,8 @@ Compute the distance between two geographic points when given a pair of latitude
 Vincenty's formulae is used to accomplish this task:
 https://en.wikipedia.org/wiki/Vincenty%27s_formulae
 
- The code below was ported from Chris Veness's JavaScript version:
- http://www.5thandpenn.com/GeoMaps/GMapsExamples/distanceComplete2.html
+The code below was ported from Chris Veness's JavaScript version:
+https://web.archive.org/web/20181109001358/http://www.5thandpenn.com/GeoMaps/GMapsExamples/distanceComplete2.html
 
 */
 
