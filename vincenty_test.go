@@ -3,7 +3,6 @@ package vincenty
 import "testing"
 
 func TestVincentyDistance(t *testing.T) {
-	// distances computed from: http://www.5thandpenn.com/GeoMaps/GMapsExamples/distanceComplete2.html
 	// distance NY-SD: 3915340.577 m
 	// distance SD-EP: 1011300.217 m
 	// distance EP-SL: 1663833.491 m
