@@ -102,7 +102,7 @@ func VincentyDistance(p1, p2 Coord) (float64, float64, bool) {
 	B := uSq / 1024 * (256 + uSq*(-128+uSq*(74-47*uSq)))
 	deltaSigma := B * sinSigma * (cos2SigmaM + B/4*(cosSigma*(-1+2*cos2SigmaM*cos2SigmaM)-B/6*cos2SigmaM*(-3+4*sinSigma*sinSigma)*(-3+4*cos2SigmaM*cos2SigmaM)))
 	meters := b * A * (sigma - deltaSigma)
-	kilometers := meters * 1000
-	miles := meters / 1609.344
+	kilometers := meters / 1000
+	miles := kilometers * 0.621371
 	return miles, kilometers, true
 }
